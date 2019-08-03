@@ -1,0 +1,97 @@
+{
+    "dir": "ltr",
+    "lang": "Russian",
+    "name": "Персональная страница Горшаль Игоря",
+    "scope": "/",
+    "display": "browser",
+    "start_url": "https://gorschal.com/",
+    "short_name": "i.Gorschal",
+    "theme_color": "transparent",
+    "description": "#Python, #Golang, #DataMining, #AI, #QA, #DevOps, #DevManagement и любые производные от этих слов.",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "./images/81876457-677a-f1e0-9196-3108413deb5f.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/60640c5e-b5f6-dce1-952c-53beb1871fe4.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/d2c60818-0435-3b04-636b-f686f5a2b84e.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/e023e658-002a-7e33-0c3c-edb8fccb9b37.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/497049fd-581d-dcdc-1116-faaf98e0e68d.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/34ae987e-8f9a-327f-2295-15cfeafbd60d.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/57e26192-aa47-9953-a1ca-ce7481dc81c4.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/e0eef144-7857-8ba5-53fe-d93092bcaa5d.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/edb22127-9e58-bf6e-80bd-fd3639aefc9f.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/6549013b-2edb-e09a-372f-0b3c16e104fb.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/023f5457-8e76-2f02-f2a3-e11a1edf0a2b.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/3131d117-ef68-f30c-f88a-7bcde879e18d.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/d66aaef7-fc97-e422-37ce-dfae7818dc2a.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/1c14eb8f-0009-d7a9-ec9f-5f3241b74159.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/b05bf4bd-f90e-08fa-78bc-488d7514d600.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/8d0a411b-74ea-5806-0e30-786c87e4edec.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ]
+}
