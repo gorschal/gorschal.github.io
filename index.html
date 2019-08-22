@@ -4,7 +4,7 @@
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143819024-2"></script>
-    <script>
+    <script async>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
@@ -18,11 +18,11 @@
     <meta name="Description" content="Персональная страница Горшаль Игоря.">
     <link href="https://fonts.googleapis.com/css?family=Anton|Roboto:300&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="manifest" href="./manifest.json" />
     <title>Персональная страница Горшаль Игоря</title>
 </head>
 
 <body>
+
     <div class="main">
         <div class="block">
             <h1>I’m i.Gorschal</h1>
@@ -34,26 +34,11 @@
                         href="https://blog.gorschal.com/">Tumblr</a>. Из социальных сетей активен только в <a
                         href="https://twitter.com/gorschal">Twitter</a>.
                 </p>
-                <a href="https://www.linkedin.com/in/igorschal/"><img src="./img/linked.png"></a>
+                <a aria-label="My profile on Linkedin" href="https://www.linkedin.com/in/igorschal/">
+                    <img alt="Linkedin Logo" src="./img/linked.png">
+                </a>
             </span>
         </div>
     </div>
-
-    <script>
-        if ("serviceWorker" in navigator) {
-            if (navigator.serviceWorker.controller) {
-                console.log("[PWA Builder] active service worker found, no need to register");
-            } else {
-                // Register the service worker
-                navigator.serviceWorker
-                    .register("pwabuilder-sw.js", {
-                        scope: "./"
-                    })
-                    .then(function (reg) {
-                        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-                    });
-            }
-        }
-    </script>
 
 </body>
