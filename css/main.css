@@ -39,7 +39,7 @@
      margin: 0;
  }
 
- .block>span {
+ .block > span {
      display: block;
      padding: 30px;
      background: #0055FF;
@@ -54,9 +54,48 @@
  .discription > a {
      color: #FFFFFF;
      text-decoration: none;
-     border-bottom: 3px solid #FF0000;
+     border-bottom: 1px solid #FF0000;
  }
 
  .discription > a:hover {
-     border-bottom: 3px solid #FFFFFF;
+     border-bottom: 1px solid #FFFFFF;
+     line-height: 0.85;
+ }
+
+ @media screen and (max-width:900px) {
+     .block {
+         margin: 20px;
+     }
+     .block > span {
+         padding: 20px;
+     }
+     h1 {
+         font-size: 92px;
+         line-height: 135px;
+         margin: 0 0 0 20px;
+     }
+     .discription {
+         font-size: 24px;
+         line-height: 28px;
+         margin-bottom: 100px;
+     }
+ }
+
+ @media screen and (max-width:600px) {
+     .block {
+         margin: 15px;
+     }
+     .block > span {
+         padding: 15px;
+     }
+     h1 {
+         font-size: 52px;
+         line-height: 76px;
+         margin: 0 0 0 15px;
+     }
+     .discription {
+         font-size: 19px;
+         line-height: 22px;
+         margin-bottom: 50px;
+     }
  }
