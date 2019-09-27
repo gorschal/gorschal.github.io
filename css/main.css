@@ -39,7 +39,7 @@
      margin: 0;
  }
 
- .block > span {
+ .block>span {
      display: block;
      padding: 30px;
      background: #0055FF;
@@ -51,14 +51,18 @@
      margin-bottom: 150px;
  }
 
- .discription > a {
+ .discription>a {
      color: #FFFFFF;
+     padding: 0;
      text-decoration: none;
-     border-bottom: 1px solid #FF0000;
+     background-image: linear-gradient( transparent 0%, transparent calc(50% - 8px), rgba(255, 0, 0, 1) calc(50% - 8px), rgba(255, 0, 0, 1) 100%);
+     transition: background-position 120ms ease-in-out, padding 120ms ease-in-out;
+     background-size: 100% 200%;
+     background-position: 0 0;
  }
 
- .discription > a:hover {
-     border-bottom: 1px solid #FFFFFF;
+ .discription>a:hover {
+     background-image: linear-gradient( transparent 0%, transparent calc(50% - 8px), rgba(255, 0, 0, 0.9) calc(50% - 8px), rgba(255, 0, 0, 0.9) 100%);
      line-height: 0.85;
  }
 
@@ -66,7 +70,7 @@
      .block {
          margin: 20px;
      }
-     .block > span {
+     .block>span {
          padding: 20px;
      }
      h1 {
@@ -85,7 +89,7 @@
      .block {
          margin: 15px;
      }
-     .block > span {
+     .block>span {
          padding: 15px;
      }
      h1 {
