@@ -1,105 +1,118 @@
- html, body {
-     width: 100%;
-     height: 100%;
-     margin: 0;
-     padding: 0;
- }
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&display=swap");
 
- .main {
-     width: 100%;
-     height: 100%;
-     position: fixed;
-     top: 0;
-     left: 0;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     overflow: auto;
- }
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
- .block {
-     max-width: 1160px;
-     margin: 30px;
- }
+.main {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
 
- h1 {
-     font-family: 'Anton', sans-serif;
-     font-style: normal;
-     font-weight: normal;
-     font-size: 110px;
-     line-height: 161px;
-     margin: 0 0 0 30px;
-     color: #000000;
- }
+.block {
+  max-width: 1160px;
+  margin: 30px;
+}
 
- p {
-     font-family: 'Roboto', sans-serif;
-     font-weight: normal;
-     color: #FFFFFF;
-     margin: 0;
- }
+h1 {
+  font-family: "Anton", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 110px;
+  line-height: 161px;
+  margin: 0 0 0 30px;
+  color: #000000;
+}
 
- .block>span {
-     display: block;
-     padding: 30px;
-     background: #0055FF;
- }
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+  margin: 0;
+}
 
- .discription {
-     font-size: 26px;
-     line-height: 32px;
-     margin-bottom: 150px;
- }
+.block > span {
+  display: block;
+  padding: 30px;
+  background: #0055ff;
+}
 
- .discription>a {
-     color: #FFFFFF;
-     padding: 0;
-     text-decoration: none;
-     background-image: linear-gradient( transparent 0%, transparent calc(50% - 8px), rgba(255, 0, 0, 1) calc(50% - 8px), rgba(255, 0, 0, 1) 100%);
-     transition: background-position 120ms ease-in-out, padding 120ms ease-in-out;
-     background-size: 100% 200%;
-     background-position: 0 0;
- }
+.discription {
+  font-size: 26px;
+  line-height: 32px;
+  margin-bottom: 150px;
+}
 
- .discription>a:hover {
-     background-image: linear-gradient( transparent 0%, transparent calc(50% - 8px), rgba(255, 0, 0, 0.9) calc(50% - 8px), rgba(255, 0, 0, 0.9) 100%);
-     line-height: 0.85;
- }
+.discription > a {
+  color: #ffffff;
+  padding: 0;
+  text-decoration: none;
+  background-image: linear-gradient(
+    transparent 0%,
+    transparent calc(50% - 8px),
+    rgba(255, 0, 0, 1) calc(50% - 8px),
+    rgba(255, 0, 0, 1) 100%
+  );
+  transition: background-position 120ms ease-in-out, padding 120ms ease-in-out;
+  background-size: 100% 200%;
+  background-position: 0 0;
+}
 
- @media screen and (max-width:900px) {
-     .block {
-         margin: 20px;
-     }
-     .block>span {
-         padding: 20px;
-     }
-     h1 {
-         font-size: 92px;
-         line-height: 135px;
-         margin: 0 0 0 20px;
-     }
-     .discription {
-         font-size: 24px;
-         line-height: 28px;
-         margin-bottom: 100px;
-     }
- }
+.discription > a:hover {
+  background-image: linear-gradient(
+    transparent 0%,
+    transparent calc(50% - 8px),
+    rgba(255, 0, 0, 0.9) calc(50% - 8px),
+    rgba(255, 0, 0, 0.9) 100%
+  );
+  line-height: 0.85;
+}
 
- @media screen and (max-width:600px) {
-     .block {
-         margin: 15px;
-     }
-     .block>span {
-         padding: 15px;
-     }
-     h1 {
-         font-size: 52px;
-         line-height: 76px;
-         margin: 0 0 0 15px;
-     }
-     .discription {
-         font-size: 19px;
-         line-height: 22px;
-         margin-bottom: 50px;
-     }
- }
+@media screen and (max-width: 900px) {
+  .block {
+    margin: 20px;
+  }
+  .block > span {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 92px;
+    line-height: 135px;
+    margin: 0 0 0 20px;
+  }
+  .discription {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .block {
+    margin: 15px;
+  }
+  .block > span {
+    padding: 15px;
+  }
+  h1 {
+    font-size: 52px;
+    line-height: 76px;
+    margin: 0 0 0 15px;
+  }
+  .discription {
+    font-size: 19px;
+    line-height: 22px;
+    margin-bottom: 50px;
+  }
+}
